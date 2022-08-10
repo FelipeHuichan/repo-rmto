@@ -4,6 +4,8 @@ git status: entrega toda la info de la stage area
 
 git add: agrega los trabajos al stage area
 
+git commit: guarda todo en un checkponit
+
 una vez dentro de git
 para guardar se necesita escribir ":wq"
 
@@ -11,3 +13,20 @@ git log: todas las confirmaciones que se han realizado
 
 git add -A :agrega todos los archivos que faltan por agregar
 
+git add . :agrega todos los archivos que estan en una carpeta
+
+git commit -m ">texto>": con esto guardamos un checkpoint con una descripcion y tal
+
+git log: historial de commits
+
+el bucle
+git init ==> modificar ==> git add ==> git commit ||
+         ===============================
+
+git branch: muestra las ramas del proyecto
+
+git branch algo-rama: se crea una segunda rama
+
+git checkout <nombre de la rama>: nos movemos a otra rama
+
+git checkout -b <nombre de la rama>: crea una nueva rama y te mueves en ella
