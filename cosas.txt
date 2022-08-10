@@ -1,0 +1,13 @@
+git init: inicializa un repositorio de una carpeta
+
+git status: entrega toda la info de la stage area
+
+git add: agrega los trabajos al stage area
+
+una vez dentro de git
+para guardar se necesita escribir ":wq"
+
+git log: todas las confirmaciones que se han realizado
+
+git add -A :agrega todos los archivos que faltan por agregar
+
